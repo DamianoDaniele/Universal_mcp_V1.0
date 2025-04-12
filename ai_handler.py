@@ -108,7 +108,7 @@ ALL_AVAILABLE_FUNCTIONS = {
 }
 
 # Modello Gemini da utilizzare (scegline uno che supporti function calling)
-MODEL_NAME = "gemini-1.5-flash" # O "gemini-1.0-pro", "gemini-1.5-pro", etc.
+MODEL_NAME = "gemini-2.5-pro-exp-03-25" # O "gemini-1.0-pro", "gemini-1.5-pro", #gemini-1.5-flash
 
 def get_ai_response(prompt: str, history: list = None):
     """
